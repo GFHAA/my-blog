@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sidebar {
+    margin-top: 10px;
+    padding: 0px 20px 0px 30px;
+    background-color: #1f2326;
+    border-radius: 5px;
+    box-shadow: -4px 2px 10px 5px rgba(0, 0, 0, 0.08);
+
+}
+.statistics {
+    display: flex;
+}
+
+.statistics-block {
+    font-weight: 700;
+    padding: 30px 15px 15px 0px;
+
+}
+.statistics-block:not(:first-child){
+    padding: 30px 15px 15px 15px;
+
+}
+.description-sidebar {
+    color: #AAA;
+}
+.online{
+    color: #00bf08;
+}

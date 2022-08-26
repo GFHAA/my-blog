@@ -1,0 +1,23 @@
+.index-div{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    background-color: #14171a;
+    color: #fff;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    justify-content: space-between;
+    display: flex;
+}
+.post-preview-row{
+    flex: 0.8;
+}
+@media (max-width: 480px) {
+    .post-preview-row{
+        flex: auto;
+    }
+}
